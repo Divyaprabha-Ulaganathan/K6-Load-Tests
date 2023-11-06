@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Test Report</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-5">Performance Test Report</h1>
+
+        <div class="row">
+            <div class="col-12">
+                <h3>Test Details</h3>
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <td><strong>Execution</strong></td>
+                            <td>local</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Script</strong></td>
+                            <td>explore-one.js</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Output</strong></td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Scenarios</strong></td>
+                            <td>1 scenario, 50 max VUs, 4m30s max duration (incl. graceful stop)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <h3>Test Results</h3>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Test Name</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Logged in successfully</td>
+                            <td class="text-success">✓</td>
+                        </tr>
+                        <tr>
+                            <td>Fetched leagues successfully</td>
+                            <td class="text-success">✓</td>
+                        </tr>
+                        <tr>
+                            <td>Paysafe deposit</td>
+                            <td class="text-danger">✗ (50% — ✓ 3024 / ✗ 3024)</td>
+                        </tr>
+                        <tr>
+                            <td>Logged out successfully</td>
+                            <td class="text-success">✓</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <h3>Additional Metrics</h3>
+                <!-- You can add additional metrics tables or graphs here as per your need. -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
